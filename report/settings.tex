@@ -1,0 +1,19 @@
+\usepackage[utf8]{inputenc}
+\usepackage{graphics} % allows the use of \graphicspath
+\usepackage{graphicx} % for use of \includegraphics
+\usepackage{multicol} % multi column structure, instead of minipage
+\usepackage{hyperref} % hyper links on references and list of contents
+\usepackage[nolist,nohyperlinks]{acronym}
+\usepackage[toc, acronym, nonumberlist]{glossaries}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[toc,page]{appendix}
+
+
+\graphicspath{{img/}} % dependant on graphics package
+
+
+\usepackage[T1]{fontenc}
+\usepackage{titlesec, blindtext, color}
+\newcommand{\hsp}{\hspace{20pt}}
+\definecolor{gray75}{gray}{0.75}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{$|$\hsp}}{0pt}{\Huge\bfseries}
