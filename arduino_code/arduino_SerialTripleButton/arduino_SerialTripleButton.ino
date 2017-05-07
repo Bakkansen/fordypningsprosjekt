@@ -41,26 +41,26 @@ void loop() {
 
   if (redButton.pressed()) {
     Serial.println("Sent red");
-    softSerial.write("#redButtonPressed");
+    softSerial.println("#toggleRedLed");
     toggleLed("red");
   }
   if (greenButton.pressed()) {
     Serial.println("Sent green");
-    softSerial.write("#greenButtonPressed");
+    softSerial.println("#toggleGreenLed");
     toggleLed("green");
   }
   if (yellowButton.pressed()) {
     Serial.println("Sent yellow");
-    softSerial.write("#yellowButtonPressed");
+    softSerial.println("#toggleYellowLed");
     toggleLed("yellow");
   }
   
   while (softSerial.available() > 0) {
     char ch = softSerial.read();
-    if (ch == 'X') {
+    if (ch == '\n') {
       handleReceivedData(receivedString);
       receivedString = "";
-    } else {
+    } else if (ch != '\r') {
       receivedString += ch;
     }
   }  
@@ -68,13 +68,13 @@ void loop() {
 
 void handleReceivedData(String data) {
   Serial.println(data);
-  if (data == "#redButtonPressed") {
+  if (data == "#toggleRedLed") {
     toggleLed("red");
   }
-  if (data == "#greenButtonPressed") {
+  if (data == "#toggleGreenLed") {
     toggleLed("green");
   }
-  if (data == "#yellowButtonPressed") {
+  if (data == "#toggleYellowLed") {
     toggleLed("yellow");
   }
 }

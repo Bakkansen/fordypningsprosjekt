@@ -1,7 +1,7 @@
 #include <RFduinoGZLL.h>
 #include "PLAB_PushButton.h"
 
-device_t role = DEVICE2;
+device_t role = DEVICE2; // DEV0 = RED, DEV1 = GREEN, DEV2 = YELLOW
 
 const int ledPin = 6;
 const int buttonPin = 2;
@@ -37,7 +37,6 @@ void loop() {
      RFduinoGZLL.sendToHost(NULL, 0);
      previousMillis = currentMillis; 
   }
-
 }
 
 void RFduinoGZLL_onReceive(device_t device, int rssi, char *data, int len) {
