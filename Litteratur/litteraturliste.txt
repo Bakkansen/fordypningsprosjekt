@@ -1,0 +1,17 @@
+Jegers, K. & Wiberg, M. (2006) Pervasive Gaming in the Everyday World. IEEE Pervasive Computing, January-March 2006 (Vol. 5, No. 1), pp. 78-85. (7 pages)
+
+Abowd, G., D., Mynatt, E., D. (2000) Charting Past, Present and Future Research in Ubiquitous Computing. ACM Transactions on Human-Computer Interaction, Vol. 7, No. 1, March 2000, Pages 29-58. ACM.(29 pages)
+
+Jegers, Kalle. "Elaborating eight elements of fun: Supporting design of pervasive player enjoyment." Computers in Entertainment (CIE) 7.2 (2009): 25. (22 pages)
+
+Kasapakis, Vlasios, and Damianos Gavalas. "Pervasive gaming: Status, trends and design principles." Journal of Network and Computer Applications 55 (2015): 213-236.(23 pages)
+
+Clark, M. A., & Clark, M. T. G. (2016)Pokémon Go and Research: Qualitative, Mixed Methods Research, and the Supercomplexity of Interventions. International Journal of Qualitative Methods, 15(1).(4 pages)
+
+Gubbi, Jayavardhana, et al. "Internet of Things (IoT): A vision, architectural elements, andfuture directions." Future generation computer systems29.7 (2013): 1645-1660.(15 pages)
+
+Botta, Alessio, et al. "Integration of cloud computing and internet of things: a survey." Future Generation Computer Systems 56 (2016): 684-700.(16 pages)
+
+Da Xu, Li, Wu He, and Shancang Li. "Internet of things in industries: A survey." IEEE Transactions on industrial informatics 10.4 (2014): 2233-2243.(10 pages)
+
+Porter, Michael E., and James E. Heppelmann. "How smart, connected products are transforming competition." Harvard Business Review 92.11 (2014): 64-88.(24 pages)
