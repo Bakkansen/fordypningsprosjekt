@@ -8,25 +8,29 @@
 \begin{document}
 %---------------------------------------------------
 \frontmatter
-\include{cover_page}
-\include{abstract}
-\tableofcontents
-
-
-%\listoftables
-%\listoffigures
-%--------Innhold------------------------------------
+\include{0cover_page}
+\include{0abstract}
+\include{0preface}
 
 \mainmatter
+\tableofcontents
+\listoftables
+\listoffigures
+\include{0nomenclature}
+%--------Innhold------------------------------------
 
-\include{introduction}
-\include{pervasive_games}
-\include{iot}
-\include{cloud_iot}
 
-{\small
-\bibliography{bibliography.bib}{} 
-}
+
+\include{1introduction}
+\include{2iot}
+\include{3pervasive_games}
+\include{4case}
+\include{5discussion}
+\include{6future}
+
+
+
+\bibliography{bibliography.bib} 
 %---------------------------------------------------
 
 \end{document}
